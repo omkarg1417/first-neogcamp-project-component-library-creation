@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Component library</title>
 </head>
 <body>
@@ -16,20 +17,21 @@
     <h2>This is the second biggest</h2>
     <p>let me show you the normal text. This is free flowing and will wrap in the end like a normal paragraph</p>
     <small>This is relatively small text</small>
+    <p>This is <strong>bold</strong> text</p>
     <hr>
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <p>This is a fluid container and it will go till the end of the page</p>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
 
     <h3>center container</h3>
-    <p>This is a center container and it will go till the specified width</p>
+    <div class="container container-center">This is a center container and it will go till the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Links</a>
-    <a href="/">Secondary Links</a>
+    <a href="/" class="link link-primary">Primary Links</a>
+    <a href="/" class="link link-secondary">Secondary Links</a>
     <hr>
 
     <h2>@lists</h2>

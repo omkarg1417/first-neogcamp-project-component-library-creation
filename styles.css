@@ -8,6 +8,13 @@ body {
     font-family: 'Montserrat';
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
+
+/** containers **/
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -17,6 +24,8 @@ body {
     max-width: 600px;
     margin:auto;
 }
+
+/** links **/
 
 .link {
     text-decoration: none;

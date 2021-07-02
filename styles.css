@@ -98,3 +98,6 @@ hr {
     color:var(--primary-color);
 }
 
+.section h1 {
+    text-align: center;
+}

@@ -114,6 +114,14 @@ hr {
     text-align: center;
 }
 
+.section-img {
+    max-width: 100%;
+    display: block;
+    margin:auto;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
 .ow {
     background-color: var(--off-white);
 }
